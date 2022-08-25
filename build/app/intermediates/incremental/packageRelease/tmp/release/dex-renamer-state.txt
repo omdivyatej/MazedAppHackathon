@@ -1,4 +1,0 @@
-#Sun Aug 21 12:39:52 IST 2022
-base.0=E\:\\mazed_health_app\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
