@@ -14,6 +14,7 @@ import 'package:provider/provider.dart';
 
 import 'models/challenges.dart';
 import 'models/my_challenges.dart';
+//this is a comment
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
