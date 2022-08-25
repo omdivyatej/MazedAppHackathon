@@ -20,6 +20,7 @@ class _WrapperState extends State<Wrapper> {
     if(user==null){
       return const Authenticate();
     }else{
+      print('this is working');
       return const Home();
     }
   }

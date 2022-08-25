@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:mazed_health_app/screens/authentication/register.dart';
-import 'package:mazed_health_app/screens/authentication/sign_in.dart';
+import 'package:mazed_health_app/screens/authentication/login.dart';
+
+import 'package:mazed_health_app/screens/authentication/signup.dart';
 
 class Authenticate extends StatefulWidget {
   const Authenticate({Key? key}) : super(key: key);
@@ -19,9 +20,9 @@ class _AuthenticateState extends State<Authenticate> {
   @override
   Widget build(BuildContext context) {
     if(showSignIn){
-      return SignIn(toggleView:toggleView);
+      return LogInPage(toggleView:toggleView);
     }else{
-      return RegisterUser(toggleView:toggleView);
+      return SignUp(toggleView:toggleView);
     }
   }
 }

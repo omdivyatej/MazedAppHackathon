@@ -6,7 +6,6 @@ import '../../theme/app_colors.dart';
 class SignIn extends StatefulWidget {
   final Function toggleView;
   const SignIn({Key? key, required this.toggleView}) : super(key: key);
-
   @override
   State<SignIn> createState() => _SignInState();
 }

@@ -12,7 +12,7 @@ class AuthService {
       UserCredential userCredential=await _auth.createUserWithEmailAndPassword(email: email, password: password);
       User? user= userCredential.user;
       await DatabaseService(uid: user!.uid).profileCreation();
-      return user!=null?convertToUserModel(user):null;
+      return user!=null? convertToUserModel(user):null;
     }catch(e){
       print(e.toString());
       return null;
@@ -44,6 +44,7 @@ class AuthService {
       return null;
     }
   }
+
 
 }
 
